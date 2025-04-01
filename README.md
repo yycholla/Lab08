@@ -3,6 +3,11 @@ Lab08 Group work repo
 
 2, 3, 7, 10, 12, 14, 26
 
+# TODO
+[ ] - 2 == [ ] addToFront(A) -> [A]
+[ ] -
+[ ] -
+[ ] - 
 • Ensure tests evaluate list behavior correctly, when transitioning between different lists sizes
 • Use consistent naming conventions like 
 

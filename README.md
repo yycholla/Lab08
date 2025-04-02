@@ -17,7 +17,7 @@ Lab08 Group work repo
 ## Quick Reference
 
 - testTwoElementList() method
-  - https://github.com/yycholla/Lab08/blob/af9f26eeeccbb17e0e2f891ccdb2a3eb65483db4/ListTester.java#L686
+  - https://github.com/yycholla/Lab08/blob/599970f4a74ecafc50ddeb6a809ee9731983322b/ListTester.java#L686C2-L718C3
 -
 
 • Ensure tests evaluate list behavior correctly, when transitioning between different lists sizes

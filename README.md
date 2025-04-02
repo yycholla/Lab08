@@ -4,15 +4,21 @@ Lab08 Group work repo
 
 2, 3, 7, 10, 12, 14, 26
 
-# TODO
+## TODO
 
 - [ ] 2 == [ ] -> addToFront(A) -> [A]
 - [ ] 3 == [ ] -> addToRear(A) -> [A]
-- [ ] 7 == [ ] -> addToRear(B) -> [B]
+- [ ] 7 == [A] -> addToRear(B) -> [A,B]
 - [ ] 10 == [ ] -> add(0,B) -> [B,A]
 - [ ] 12 == [A] -> removeFirst() -> []
 - [ ] 14 == [A] -> remove(A) -> []
 - [ ] 26 == [A,B] -> removeLast() -> [A]
+
+## Quick Reference
+
+- testTwoElementList() method
+  - https://github.com/yycholla/Lab08/blob/af9f26eeeccbb17e0e2f891ccdb2a3eb65483db4/ListTester.java#L686
+-
 
 • Ensure tests evaluate list behavior correctly, when transitioning between different lists sizes
 • Use consistent naming conventions like

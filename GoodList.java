@@ -10,6 +10,7 @@ import java.util.Iterator;
  * @param <E>  - type of elements held in this collection
  * @author CPSC 221
  */
+
 public class GoodList<E> implements IndexedUnsortedList<E> {
 	private LinkedList<E> list;
 	

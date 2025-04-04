@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.ListIterator;
 
@@ -13,12 +14,14 @@ public class BadList<E> implements IndexedUnsortedList<E> {
 	public E removeFirst() {
 		// TODO Auto-generated method stub
 		return null;
+		// List "broken", return null 
 	}
 
 	@Override
 	public E removeLast() {
 		// TODO Auto-generated method stub
 		return null;
+		// List "broken", return null 
 	}
 
 	@Override
@@ -48,13 +51,15 @@ public class BadList<E> implements IndexedUnsortedList<E> {
 	@Override
 	public boolean isEmpty() {
 		// TODO Auto-generated method stub
-		return false;
+		return true;
+		// Returning true, empty even after adding 
 	}
 
 	@Override
 	public int size() {
 		// TODO Auto-generated method stub
-		return -1;
+		return 0;
+		// Returning 0 instead since -1 may crash
 	}
 
 	@Override
@@ -102,7 +107,7 @@ public class BadList<E> implements IndexedUnsortedList<E> {
 	@Override
 	public int indexOf(E element) {
 		// TODO Auto-generated method stub
-		return 0;
+		return -1;
 	}
 
 	@Override
@@ -114,18 +119,20 @@ public class BadList<E> implements IndexedUnsortedList<E> {
 	@Override
 	public Iterator<E> iterator() {
 		// TODO Auto-generated method stub
-		return null;
+		return Collections.emptyIterator();
 	}
 
 	@Override
 	public ListIterator<E> listIterator() {
 		// TODO Auto-generated method stub
-		return null;
+		//return null;
+		throw new UnsupportedOperationException();
 	}
 
 	@Override
 	public ListIterator<E> listIterator(int startingIndex) {
 		// TODO Auto-generated method stub
-		return null;
+		// return null;
+		throw new UnsupportedOperationException();
 	}
 }

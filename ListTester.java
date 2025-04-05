@@ -341,13 +341,13 @@ public class ListTester {
 	 *
 	 * @return [A] after addToRear(A)
 	 */
-	 private IndexedUnsortedList<Integer> emptyList_addToRearA_A() {
+	private IndexedUnsortedList<Integer> emptyList_addToRearA_A() {
 		IndexedUnsortedList<Integer> list = newList();
 		list.addToRear(ELEMENT_A);
 		return list;
-	 }
+	}
 
-	 private Scenario<Integer> emptyList_addToRearA_A = () -> emptyList_addToRearA_A();
+	private Scenario<Integer> emptyList_addToRearA_A = () -> emptyList_addToRearA_A();
 
 	/**
 	 * Scenario #04: [] -> add(A) -> [A]

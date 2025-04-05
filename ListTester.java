@@ -267,7 +267,7 @@ public class ListTester {
 
 		// List Iterator Scenarios
 		if (SUPPORTS_LIST_ITERATOR) {
-			//add seneroise here...
+			//add seneroise here... // Classic Sevigny typo ;)
 		}
 
 		// Iterator concurrency tests

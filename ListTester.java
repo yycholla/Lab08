@@ -405,7 +405,6 @@ public class ListTester {
 	 * @return [] after removeFirst()
 	 */
 
-	// SOMETHING MIGHT BE MISSING HERE
 	private IndexedUnsortedList<Integer> A_removeFirst_empty() {
 		IndexedUnsortedList<Integer> list = emptyList_addToFrontA_A();
 		list.removeFirst();
@@ -891,8 +890,7 @@ public class ListTester {
 	 * @param contentsString contains character labels corresponding to values in
 	 *                       contents
 	 */
-	private void testThreeElementList(Scenario<Integer> scenario, String scenarioName, Integer[] contents,
-			String contentsString) {
+	private void testThreeElementList(Scenario<Integer> scenario, String scenarioName, Integer[] contents, String contentsString) {
 		System.out.printf("\nSCENARIO: %s\n\n", scenarioName);
 		try {
             printTest(scenarioName + "_testAddToFront", testAddToFront(scenario.build(), ELEMENT_X, Result.NoException));
